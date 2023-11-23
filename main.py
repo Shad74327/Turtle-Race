@@ -58,5 +58,6 @@ while is_race_on:
             else:
                 print(f"You lose! {winning_color} is the winner.")
             is_race_on = False
+            break
 
 screen.exitonclick()
